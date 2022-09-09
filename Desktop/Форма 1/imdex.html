@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/style.css">
+	<title>form</title>
+</head>
+<body>
+	<div class="wrapper">
+		<main class="main">
+			<form>
+				<h1 style= "text-align:center" class="kn1" >Радио кнопки </h1>
+                <input id="name" type="text" alt="name" placeholder="Имя" required />
+                <input id="email" type="e-mail" alt="E-mail" placeholder="E-mail" required />
+                <input id="tel" type="text" alt="tel" placeholder="Telephone" required />
+            
+			<div>
+				<p class="kn"> 1</p>
+				<input type="radio" name="rad" id="rad1" checked>
+				<p class="kn"> 2</p>
+				<input type="radio" name="rad" id="rad1">
+				<p class="kn"> 3</p>
+				<input type="radio"  name="rad" id="rad1">
+			</div>
+			<div>
+				<p class="kn" style= "text-align:center" >Я даю согласие на обработку моих личных данных</p>
+				<input type="checkbox" name="check" id="check" alt="check">
+			</div>
+			<input type="submit" style="height: auto" onclick="SendMessage()" />
+			</form>
+		</main>
+		
+		<script src="js/ndex.js" type="text/javascript"></script>
+    </div>
+</body>
+</html>
